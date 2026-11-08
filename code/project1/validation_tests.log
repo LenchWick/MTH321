@@ -1,0 +1,13 @@
+test_balanced_stationary_variance_identity (__main__.AnalyticChecks.test_balanced_stationary_variance_identity) ... ok
+test_em_negative_tail_and_milstein_stress (__main__.AnalyticChecks.test_em_negative_tail_and_milstein_stress) ... ok
+test_exact_transition_composition (__main__.AnalyticChecks.test_exact_transition_composition) ... ok
+test_frozen_factor_exact_gbm (__main__.AnalyticChecks.test_frozen_factor_exact_gbm) ... ok
+test_milstein_minimum_condition (__main__.AnalyticChecks.test_milstein_minimum_condition) ... ok
+test_no_shocks_log_scheme (__main__.AnalyticChecks.test_no_shocks_log_scheme) ... ok
+test_one_step_milstein_independent_formula (__main__.AnalyticChecks.test_one_step_milstein_independent_formula) ... ok
+test_zero_diffusion_deterministic_recurrence (__main__.AnalyticChecks.test_zero_diffusion_deterministic_recurrence) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

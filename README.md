@@ -1,5 +1,26 @@
 # MTH321 — Group D
 
+## Project 1 — Financial SDEs
+
+[Report PDF](report/project1/project1_report.pdf) · [Slides PDF](report/project1/project1_slides.pdf) · [LaTeX sources](report/project1/) · [Code and recorded outputs](code/project1/) · [Figures](figures/project1/) · [Speaker script and provenance](notes/project1/)
+
+Exact GBM benchmarking, Euler–Maruyama/Milstein convergence and non-affine stochastic volatility. The latest report has 39 pages, with the existing signed AI log and ICS appendix; slides have 17 pages.
+
+From the repository root:
+
+```sh
+python -m pip install -r code/project1/requirements.txt
+python code/project1/code/validation_tests.py
+python code/project1/code/run_all.py
+```
+
+The full Monte Carlo run takes several minutes and writes to `code/project1/outputs/`. See [Project 1 instructions](notes/project1/README.md) for archive preservation, computational cost and evidence limits. Project 1 has its own dependency file and does not change the Project 2 root entry point.
+
+---
+
+## Project 2 — Variable diffusion
+
+
 Project 2: conservative finite differences for variable diffusion,
 `-div(a grad u) = f`, on the unit square.
 
@@ -94,3 +115,4 @@ The [slides PDF](report/project2/Project2_Presentation.pdf) and
 the code. The report directory explains the status of the separate final report.
 The course also requires a report PDF and runnable code ZIP; a GitHub link does
 not replace those submissions.
+

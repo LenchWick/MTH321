@@ -1,0 +1,31 @@
+{
+  "team": "D",
+  "date": "2026-10-07",
+  "full_entrypoint_exit_code": 0,
+  "integrated_checks": {
+    "exact_transition_composition": true,
+    "zero_noise_EM_equals_Milstein": true,
+    "scalar_Milstein_formula": true,
+    "nonaffine_frozen_factor_reduces_to_GBM": true,
+    "Brownian_variance": true,
+    "Brownian_correlation": true,
+    "GBM_moment_within_4SE": true,
+    "SV_martingale_within_4SE": true,
+    "EM_order": true,
+    "Milstein_order": true,
+    "balanced_frozen_factor": true,
+    "variance_identity": true
+  },
+  "analytic_tests_passed": 8,
+  "clean_extract_tests_passed": 8,
+  "kernels_main_ast_match": true,
+  "independent_seed_runs": 5,
+  "personal_fields": "pending team completion",
+  "source_sha256": {
+    "repeat_seeds.py": "c8bb507d17c65d49e5de1cebbb2da38b68646fcd6ac78616253676742c55f468",
+    "kernels.py": "919ab31af3c2fb5da69ca5d190bb19b900714a107bbc812f22f5625b81ad0dff",
+    "run_all.py": "72d8a1b7d45e479ce65e437e16c4eab2da6b35e35d4e3f3cee2834dc37069f4f",
+    "validation_tests.py": "fc4a28adb13713b9327ceecaabe5059f401e9df2a3b9634fa329ef83284e60f1",
+    "submission_figures.py": "486380d7ab77fdde4cea404b11587f100f934020b80660cb718d645834e52218"
+  }
+}
