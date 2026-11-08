@@ -1,0 +1,28 @@
+{
+  "python": "3.14.6",
+  "numpy": "2.4.6",
+  "scipy": "1.18.0",
+  "matplotlib": "3.11.0",
+  "sympy": "1.14.0",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "repeats_direct": 5,
+  "repeats_pcg": 5,
+  "warmups": 1,
+  "threads_requested": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/opt/anaconda3/lib/libopenblasp-r0.3.31.dylib",
+      "version": "0.3.31",
+      "threading_layer": "pthreads",
+      "architecture": "neoversen1"
+    }
+  ],
+  "affine_error": 6.661338147750939e-16,
+  "eigen_min": 28.33254682968626,
+  "neumann_order": 2.000352244419197
+}

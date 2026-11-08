@@ -1,0 +1,16 @@
+Matplotlib is building the font cache; this may take a moment.
+test_affine_nonzero_boundary (__main__.SolverTests.test_affine_nonzero_boundary) ... ok
+test_callable_forcing_against_symbolic_derivative (__main__.SolverTests.test_callable_forcing_against_symbolic_derivative) ... ok
+test_constant_operator_against_kronecker (__main__.SolverTests.test_constant_operator_against_kronecker) ... ok
+test_harmonic_interface_exact_and_arithmetic_falsified (__main__.SolverTests.test_harmonic_interface_exact_and_arithmetic_falsified) ... ok
+test_incompatible_neumann_is_rejected (__main__.SolverTests.test_incompatible_neumann_is_rejected) ... ok
+test_invalid_coefficient_and_data (__main__.SolverTests.test_invalid_coefficient_and_data) ... ok
+test_invalid_grid (__main__.SolverTests.test_invalid_grid) ... ok
+test_neumann_nullspace_and_mean_gauge (__main__.SolverTests.test_neumann_nullspace_and_mean_gauge) ... ok
+test_smallest_grid (__main__.SolverTests.test_smallest_grid) ... ok
+test_zero_solution_and_integer_inputs (__main__.SolverTests.test_zero_solution_and_integer_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.039s
+
+OK

@@ -1,0 +1,8 @@
+Predictions: smooth order 2; harmonic interface nodal exactness; arithmetic interface resistance error; Neumann constant nullspace.
+Independent symbolic forcing checks: PASS (Dirichlet and Neumann).
+Smooth fitted L2 order (last three meshes): 2.00033807
+Smooth fitted Linf order (last three meshes): 1.99984226
+Affine boundary audit error 6.661e-16; smallest eigenvalue 28.3325
+Incompatible Neumann source b+1: correctly REJECTED.
+Neumann fitted L2 order: 2.00035224
+ALL AUTOMATED AUDITS PASSED. Human contribution and viva checks remain team-owned.

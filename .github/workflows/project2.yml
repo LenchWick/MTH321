@@ -1,0 +1,44 @@
+name: Project 2 reproducibility
+
+on:
+  push:
+    paths:
+      - 'code/project2/**'
+      - 'figures/project2/**'
+      - 'run_all.py'
+      - 'requirements.txt'
+      - '.github/workflows/project2.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      MPLBACKEND: Agg
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Check published reference evidence
+        run: python run_all.py --check-only
+      - name: Reproduce into a separate directory
+        run: python run_all.py --output-dir build/project2-ci
+      - name: Upload actual rerun evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: project2-reproduction
+          path: build/project2-ci/
+          if-no-files-found: warn
+          retention-days: 14

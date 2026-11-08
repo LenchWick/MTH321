@@ -1,0 +1,12 @@
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+# Preserve the exact original CSV bytes for the reference SHA-256 manifest.
+*.csv -text whitespace=cr-at-eol
+*.pdf binary
+*.png binary
+*.gif binary
+*.pptx binary
+*.npz binary

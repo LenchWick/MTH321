@@ -5,3 +5,12 @@ __pycache__/
 *.toc
 *.bbl
 *.blg
+.DS_Store
+.cache/
+**/.mplconfig/
+build/
+*.pyc
+# Generated duplicates; canonical published figures live in figures/project2/.
+code/project2/outputs/*.png
+code/project2/outputs/*.pdf
+code/project2/outputs/*.gif

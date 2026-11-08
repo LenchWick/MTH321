@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "smooth_L2_order": 2.000338070440027,
+  "smooth_Linf_order": 1.9998422636902042,
+  "arithmetic_L2_order": 1.0105816405089896,
+  "neumann_L2_order": 2.000352244419197,
+  "timed_samples_consistent": true,
+  "field_norms_consistent": true,
+  "layered_flux_diagnostics_consistent": true,
+  "figure_files_checked": 15
+}
